@@ -13,7 +13,7 @@ cv2.namedWindow(win_name, cv2.WINDOW_NORMAL)
 result = None
 
 #network architecture that contains weight
-net = cv2.dnn.readNetFromCaffe(r"C:\Users\dhika\Downloads\opencv_bootcamp_assets_12\deploy.prototxt", r"C:\Users\dhika\Downloads\opencv_bootcamp_assets_12\res10_300x300_ssd_iter_140000_fp16.caffemodel")
+net = cv2.dnn.readNetFromCaffe(r"C:\Users\dhika\Model\deploy.prototxt", r"C:\Users\dhika\Model\res10_300x300_ssd_iter_140000_fp16.caffemodel")
 # Model parameters
 in_width = 312
 in_height = 312
